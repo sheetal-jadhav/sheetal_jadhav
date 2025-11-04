@@ -13,7 +13,7 @@ taxonomies:
 menu:
     main:
         - name: Projects
-          url: projects/
+          url: papers/
           weight: 2
         - name: Simulations
           url: simulations/
@@ -22,7 +22,7 @@ menu:
           url: notes/
           weight: 4
         - name: Personal Essays
-          url: essays/
+          url: Books/
           weight: 5 
         - name: Sci Comm.
           url: https://www.instagram.com/onlybrainytales/
@@ -61,13 +61,13 @@ params:
           imageHeight: 160
           buttons:
             - name: Projects
-              url: projects/
+              url: papers/
             - name: Simulations
               url: simulations/
             - name: Study Notes
               url: notes/
             - name: Personal Essays
-              url: essays/
+              url: Books/
             - name: Sci Comm.
               url: https://www.instagram.com/onlybrainytales/
 
