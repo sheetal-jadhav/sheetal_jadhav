@@ -22,7 +22,7 @@ menu:
           url: notes/
           weight: 4
         - name: Personal Essays
-          url: Books/
+          url: books/
           weight: 5 
         - name: Sci Comm.
           url: https://www.instagram.com/onlybrainytales/
@@ -67,7 +67,7 @@ params:
             - name: Study Notes
               url: notes/
             - name: Personal Essays
-              url: Books/
+              url: books/
             - name: Sci Comm.
               url: https://www.instagram.com/onlybrainytales/
 
