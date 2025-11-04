@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://sheetal-jadhav.github.io/sheetal_jadhav/"
+title: Sheetal Jadhav
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,28 +12,28 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Projects
+          url: projects/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Simulations
+          url: simulations/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        - name: Study Notes
+          url: notes/
+          weight: 4
+        - name: Personal Essays
+          url: essays/
+          weight: 5 
+        - name: Sci Comm.
+          url: https://www.instagram.com/onlybrainytales/
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "This website hosts Sheetal Jadhav's research papers, course materials projects, curriculum vitae, and contact information."
     author: Moritz-Maria von Igelfeld
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: dark
+    defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
@@ -60,38 +60,34 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Projects
+              url: projects/
+            - name: Simulations
+              url: simulations/
+            - name: Study Notes
+              url: notes/
+            - name: Personal Essays
+              url: essays/
+            - name: Sci Comm.
+              url: https://www.instagram.com/onlybrainytales/
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Location
-          url: location/
+          url: mailto:31jsheetal@gmail.com
+        - name: Substack
+          url: https://substack.com/@yoursthoughtfully?utm_campaign=profile&utm_medium=profile-page
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
           url: https://github.com/sheetal-jadhav
-        - name: Substack
-          url: https://substack.com/@yoursthoughtfully?utm_campaign=profile&utm_medium=profile-page
         - name: Twitter
           url: https://x.com/_curiousneuron
         - name: Bluesky
           url: https://bsky.app/profile/thecuriousneuron.bsky.social
+        - name: Location
+          url: location/
 
     assets:
         disableScrollBarStyle: true
